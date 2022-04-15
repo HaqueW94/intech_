@@ -11,7 +11,7 @@
     --warningDrk:orangered;
     --primary2:#8c7ae6;
     --success1:#38ada9;
-    --secondary1:#dfe4ea;
+    --secondary1:#ecf0f3;
     --danger1:#ff5e57;
 }
 
@@ -59,7 +59,9 @@ aside .list-group .list-group-item span{
 
 }
 
-
+.borders{
+    border:1px solid var(--secondary1);
+ }
 
 .navbar{
     width:inherit;
