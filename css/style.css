@@ -282,6 +282,7 @@ main .ord_table span{
     }
       main .charts .earn_chart{
           margin:0 auto;
+          min-height:25vh;
       }
     main .charts .marker_wrapper {
         width:100%;
