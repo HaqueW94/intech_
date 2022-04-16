@@ -280,7 +280,9 @@ main .ord_table span{
     main .stats .stats-table-wrapper{
         height:50vh;
     }
-
+      main .charts .earn_chart{
+          margin:0 auto;
+      }
     main .charts .marker_wrapper {
         width:100%;
         display:flex;

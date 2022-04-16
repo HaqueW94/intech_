@@ -10,9 +10,9 @@ let yrTable=[
   {title:'year',o_n:'#34567',name:'Nisha Singh',addr:'45 Shilling Rd-3',dte:'30/5/21',pt:'PhonePay',ps:'failed'},
   {title:'year',o_n:'#34067',name:'Danish Hassan',addr:'45 Shilling Rd-3',dte:'24/6/22',pt:'AmazonPay',ps:'processing'},
   {title:'year',o_n:'#11567',name:'Dennis Ritchie1',addr:'45 Shilling Rd-3',dte:'24/3/22',pt:'PhonePay',ps:'paid'},
-  {title:'year',o_n:'#24563',name:'Dennis Ritchie2',addr:'45 Shilling Rd-3',dte:'24/3/22',pt:'PhonePay',ps:'paid'},
+  {title:'year',o_n:'#24563',name:'Dennis Ritchie2',addr:'45 Shilling Rd-3',dte:'24/3/22',pt:'PhonePay',ps:'failed'},
   {title:'year',o_n:'#34517',name:'Dennis Ritchie3',addr:'45 Shilling Rd-3',dte:'24/3/22',pt:'PhonePay',ps:'paid'},
-  {title:'year',o_n:'#84527',name:'Miang Chang',addr:'45 Shilling Rd-3',dte:'04/3/22',pt:'PhonePay',ps:'paid'},
+  {title:'year',o_n:'#84527',name:'Miang Chang',addr:'45 Shilling Rd-3',dte:'04/3/22',pt:'PhonePay',ps:'failed'},
   {title:'year',o_n:'#94537',name:'Saul Gomez',addr:'45 Shilling Rd-3',dte:'28/7/22',pt:'PhonePay',ps:'paid'},
 ];
 
@@ -364,10 +364,9 @@ myChart2=new Chart(ctx2,{
   type: 'doughnut',
   data:{
     labels: [
-      'blue'
+      'Target','To Achieve'
     ],
     datasets: [{
-      label: 'My First Dataset',
       data:arr,
       backgroundColor: [
         '#38ada9',
@@ -439,10 +438,9 @@ myChart4=new Chart(ctx4,{
   type: 'doughnut',
   data:{
     labels: [
-      'blue'
+      'Profit','Loss','Others','Margins'
     ],
     datasets: [{
-      label: 'My First Dataset',
       data:var2,
       backgroundColor: [
         '#f7b731',
@@ -516,7 +514,7 @@ function createBar(var1,var2){
 
 }
 
-createDonut1([300,200],'67%');
+createDonut1([67,33],'67%');
 createDonut2([45,55],[45,15,18,22]);
 createBar([12,8, 3, 5, 3, 9],[3, 19, 10, 15, 10, 7]);
 
